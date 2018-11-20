@@ -21,6 +21,9 @@ Using this API (https://randomuser.me/documentation) retrieve a list of 10 users
 
 ## Instructions to run the application
 - Step 1: Clone the repository
+```
+git clone https://github.com/UttaravK/User_API.git
+```
 - Step 2: Execute below command
 ```
 npm install
