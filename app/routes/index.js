@@ -5,8 +5,8 @@ var path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  // res.render('index2', { title: 'Express' });
-  res.sendFile('/Users/uttara/Documents/Projects/User_API/app/views/index2.html');
+  var base_path = path.basename(path.dirname("data_retrieval.html"));
+  res.sendFile(path.join(base_path, 'data_retrieval.html'));
 });
 
 module.exports = router;
