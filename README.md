@@ -1,4 +1,9 @@
-# This project addresses following task
+# Application to retrieve following User Details:
+- Name
+- Gender
+- Email Id.
+
+# This application accomplishes following task
 
 ## Task:
 Using this API (https://randomuser.me/documentation) retrieve a list of 10 users and display there name, gender and email in a list and add a hover state and simple transition (Fade in, bounce...).
@@ -24,7 +29,11 @@ npm install
 ```
 npm start
 ```
--Step 4: Open the application on the browser
+- Step 4: Open the application on the browser
 ```
 localhost:3000
 ```
+
+## Author:
+Uttara Vishwas Kulkarni
+(uttaravishwas.kulkarni@sjsu.edu)
