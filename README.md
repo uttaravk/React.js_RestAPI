@@ -13,3 +13,18 @@ Using this API (https://randomuser.me/documentation) retrieve a list of 10 users
 * Ask quesetions
 * It's not about finishing it.
 * We are looking for best practices, clean code not for you but for the next person after you.
+
+## Instructions to run the application
+- Step 1: Clone the repository
+- Step 2: Execute below command
+```
+npm install
+```
+- Step 3: Run the application using command prompt/terminal
+```
+npm start
+```
+-Step 4: Open the application on the browser
+```
+localhost:3000
+```
