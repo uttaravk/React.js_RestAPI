@@ -5,8 +5,9 @@ var path = require('path');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  var base_path = path.basename(path.dirname("data_retrieval.html"));
-  res.sendFile(path.join(base_path, 'data_retrieval.html'));
+  var base_path = path.dirname(require.main.filename);
+  base_path = path.dirname(base_path);
+  res.sendFile(path.join(base_path, '/views/data_retrieval.html'));
 });
 
 module.exports = router;
