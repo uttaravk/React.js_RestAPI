@@ -25,11 +25,15 @@ Using this API (https://randomuser.me/documentation) retrieve a list of 10 users
 ```
 npm install
 ```
-- Step 3: Run the application using command prompt/terminal
+- Step 3: Navigate to the app folder
+```
+cd app
+```
+- Step 4: Run the application using command prompt/terminal 
 ```
 npm start
 ```
-- Step 4: Open the application on the browser
+- Step 5: Open the application on the browser
 ```
 localhost:3000
 ```
